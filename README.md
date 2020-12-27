@@ -1,5 +1,7 @@
----
-abstract: |
+### A Brief Panel Data Analysis to Forecast U.S. Presidential Election
+
+
+# Abstract
   In this paper I will initially retrace the path marked by Ray C. Fair
   with his long lasting series of presidential elections forecasts
   exploiting the same variables he uses but enriching the model with
@@ -9,16 +11,7 @@ abstract: |
   algorithm for model selection. I will finally infer the results and
   explore the possible challenges in disentangling causality from
   correlation.
-author:
-- Gaspare Mattarella - 965461 - gaspare.mattarella\@studenti.unimi.it
-bibliography:
-- ref.bib
-- EconPapers.bib
-date: Matteo Biglioli - Sara Gironi
-title: A Brief Panel Data Analysis to Forecast U.S. Presidential
-  Election
----
-
+  
 # Exploratory Data Analysis
 
 The historical sample contains 11 previous elections, beginning with the
