@@ -1,7 +1,7 @@
-### A Brief Panel Data Analysis to Forecast U.S. Presidential Election
+# A Brief Panel Data Analysis to Forecast U.S. Presidential Election
 
 
-# Abstract
+## Abstract
   In this paper I will initially retrace the path marked by Ray C. Fair
   with his long lasting series of presidential elections forecasts
   exploiting the same variables he uses but enriching the model with
@@ -12,7 +12,7 @@
   explore the possible challenges in disentangling causality from
   correlation.
   
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The historical sample contains 11 previous elections, beginning with the
 1976 Ford-Carter contest and the popular vote for each State and the
@@ -44,7 +44,7 @@ above the mean during all 4 years of administration. Finally we add the
 inflation rate for the first 15 quarters of administration based on the
 GDP deflator.
 
-# Estimation
+## Estimation
 
 ![Variables Names](plots/var_lab_1.png){#fig:graph1
 width="0.8\\linewidth"}
@@ -72,7 +72,7 @@ effect model.
 
 ![Estimation Output](plots/est_out_1.png){#fig:est_1}
 
-# Estimation
+## Estimation
 
 From a first overview we can see that the null hypothesis that a Pooled
 OLS would represent a better model is rejected, that the "within" $R^2$
@@ -187,7 +187,7 @@ minimal; nearly identical apart for the results of 2016 which forecast a
 loss with 242 grand electors instead of 248, getting then closer to the
 true value.
 
-# Conclusions
+## Conclusions
 
 Our expectations on the Lasso model were not that different from what it
 turned out to be. Adding new interesting and relevant economic variables
@@ -200,7 +200,7 @@ complex and deep qualitative analysis which, as stated before, accounts
 for hardly countable factors which are often at the core of the
 decisions that determine the following American President.
 
-# Causal Inference
+## Causal Inference
 
 One of the most relevant challenge concerns the definition of control
 and treatment groups. In natural experiments we don't always have a
