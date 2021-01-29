@@ -1,7 +1,5 @@
 # A Brief Panel Data Analysis to Forecast U.S. Presidential Election
 
-
-## Abstract
   In this paper I will initially retrace the path marked by Ray C. Fair
   with his long lasting series of presidential elections forecasts
   exploiting the same variables he uses but enriching the model with
